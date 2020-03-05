@@ -1,0 +1,346 @@
+/*
+  Hey, I'm Dennis Good, Designer and Developer
+  Welcome to my personal site.
+*/
+
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #1f1f1f;
+}
+
+/* Headings & Text */
+
+p {
+	font-size: 19px;
+	color: #fff;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Rubik', sans-serif !important;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	line-height: 43px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.header h1 {
+	color: #d23a07;
+	font-size: 55px;
+}
+
+@media screen and (min-width: 480px) {
+	h1 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+}
+
+h2 {
+	font-size: 35px;
+    line-height: 48px;
+    font-weight: 500;
+		text-align: center;
+		margin-bottom: 30px;
+}
+
+h3 {
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+h4 {
+	font-size: .9em;
+}
+
+h5 {
+	font-size: .8em;
+}
+
+ul {
+	margin-left: 0;
+	margin-bottom: 45px;
+}
+
+ul li {
+	margin-bottom: 25px;
+}
+
+/* Anchor tags */
+
+a, a:focus, a:visited {
+	color: #d23a07;
+	font-weight: 600;
+}
+
+a:hover {
+	color: #ec4f1a;
+	border-bottom: 3px solid #ec4f1a;
+}
+
+/* Selection highlighting */
+
+::-moz-selection {
+	/* Code for Firefox */
+	color: #ffffff;
+	background: #000000;
+}
+
+::selection {
+	color: #ffffff;
+	background: #000000;
+}
+
+::selection {
+	background: #000000;
+	/* WebKit/Blink Browsers */
+	color: #ffffff;
+}
+
+::-moz-selection {
+	background: #000000;
+	/* Gecko Browsers */
+	color: #ffffff;
+}
+
+.header {
+	margin-top: 40px;
+}
+
+
+/* Header logo */
+
+.logo-image {
+	vertical-align: baseline;
+}
+
+/* Buttons */
+
+button, .button {
+	background-color: #d23a07;
+	color: #ffffff;
+	padding: 10px 32px;
+	font-weight: 700;
+	font-size: 15px;
+	font-family: 'Rubik', sans-serif !important;
+	border-radius: 4px;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+	background-color: #ec4f1a;
+    color: #ffffff;
+}
+
+button p:hover, .button p:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+button h2, .button h2 {
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+/* Home page */
+
+.outside-container {
+	min-height: 330px;
+	background-color: #fcfcfc;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.text-container {
+	position: relative;
+	padding: 40px 55px;
+	margin-bottom: 30px;
+}
+
+.text-container p:last-child {
+    margin-bottom: 0;
+}
+
+.inside-container {
+	height: 50px;
+	background-color: #f9f9f9;
+	text-align: center;
+	position: absolute;
+	display: block;
+	text-transform: uppercase;
+	padding-top: 15px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.illustration {
+	background: #ffffff url('../img/moth.jpg') no-repeat center center; 
+    background-size: cover;
+    -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+}
+
+.design {
+	background: #ffffff url('../img/alpha-force.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.thoughts {
+	background: #ffffff url('../img/sketches.jpg') no-repeat right center; 
+	background-size: cover;
+}
+
+.shop {
+	background: #ffffff url('../img/t-shirt.jpg') no-repeat center center; 
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.design-tips {
+	background: #ffffff url('../img/design-tips.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.daily-sketches {
+	background: #ffffff url('../img/daily-sketches.png') no-repeat center center; 
+	background-size: cover;
+}
+
+.pattern-hero {
+	background: #ffffff url('../img/pattern-hero.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.embrace-accountability {
+	background: #ffffff url('../img/embrace-accountability.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.thoughts-on-ui-design {
+	background: #ffffff url('../img/ui-design.png') no-repeat center center; 
+	background-size: cover;
+}
+
+.investing-in-a-logo {
+	background: #ffffff url('../img/logo-design.png') no-repeat center center; 
+	background-size: cover;
+}
+
+.about {
+	background: #ffffff url('../img/dennis-good.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+.logo-design {
+	background: #ffffff url('../img/portfolio/featured/logos-4.jpg') no-repeat center center;  
+	background-size: cover;
+}
+
+.direct-mail {
+	background: #ffffff url('../img/jump-start-postcard.jpg') no-repeat center center;  
+	background-size: cover;
+}
+
+.web-design {
+	background: #ffffff url('../img/portfolio/featured/telamon-1.jpg') no-repeat top center;  
+	background-size: cover;
+}
+
+.content {
+	background-color: #1f1f1f;
+	padding: 30px 0 30px 0;
+	min-height: 0;
+}
+
+@media screen and (min-width: 480px) {
+	.content {
+		background-color: #1f1f1f;
+		padding: 50px 0 30px 0;
+		min-height: 500px;
+	}
+}
+
+/* Navigation */
+
+.nav-list {
+	list-style: none;
+	text-decoration: none;
+	margin-left: 0;
+	margin-top: 22px;
+}
+
+.nav-list li {
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 15px;
+}
+
+.nav-list li:last-child {
+	margin-right: 0;
+}
+
+.nav-list a {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+.nav-list a:hover {
+	border-bottom: 3px solid #ffffff;
+}
+
+/* Book shelf */
+
+.book-shelf img {
+	max-height: 310px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+/* Footer navigation */
+
+.nav-list.footer-list a, .nav-list.footer-list p {
+	font-weight: 500;
+	font-size: 15px;
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+/* Utility classes */
+
+.v-align {
+	display: flex;
+	align-items: center;
+}
+
+/* 375px - 667px*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+
+}
+
+/* 320px - 568px */
+
+@media only screen and (max-width: 568px) {
+	
+	.text-container {
+		position: relative;
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+
+	}
